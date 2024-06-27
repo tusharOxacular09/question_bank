@@ -1,0 +1,26 @@
+{
+  "name": "question_bank",
+  "version": "1.0.0",
+  "description": "Node.js application to manage questions and its options.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharOxacular09/question_bank.git"
+  },
+  "author": "Tushar Kanta Swain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharOxacular09/question_bank/issues"
+  },
+  "homepage": "https://github.com/tusharOxacular09/question_bank#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  }
+}
